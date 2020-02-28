@@ -7,7 +7,7 @@ parm::parm (char *argv[]) : L(atoi(argv[1])), J(1.0), h(0.0), sweep(atoi(argv[2]
 void create_output_directory(parm& p_){
     /** Set paths for output directory and logfile **/
     std::ostringstream fn, fn1;
-    fn << "./output/L" << p_.L << "/";
+    fn << "./L" << p_.L << "/";
 
     fn1 << fn.str() << "log_h" << p_.h << ".dat";
     p_.log = fn1.str();

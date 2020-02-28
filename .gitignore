@@ -1,0 +1,7 @@
+log/
+L*/
+obj/
+*.out
+*.png
+*.dat
+*.txt

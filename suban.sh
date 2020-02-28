@@ -8,5 +8,5 @@
 
 for L in 24 36 48
 do
-	qsub -v l=$L -N ann.L$L -o ./log/ parm.sh 
+	qsub -v l=$L -N ana.L$L -o ./log/ parman.sh 
 done

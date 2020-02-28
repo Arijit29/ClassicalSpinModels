@@ -18,7 +18,7 @@ void observables::CalculateConfigAvgs(parm& p_) {
         MagSusp = 0.0;
         //for (int n = 0; n < p_.Nconf; n++) {
         int s(0), n(0), save(p_.sweep/(2*p_.Nconf));
-        std::string line;
+	std::string line;
         logfile << "Reading config file.." << std::endl;
         while (std::getline(file, line)) {
             if ((s >= (p_.sweep/2)) && ((s % save) == 0)) {

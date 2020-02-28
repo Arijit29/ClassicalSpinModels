@@ -12,4 +12,4 @@ L=$l            # No. of sites
 sweep=50000     # No. of MC sweeps
 Nconf=500
 
-time ./a.out $L $sweep $Nconf
+time ./ana.out $L $sweep $Nconf
