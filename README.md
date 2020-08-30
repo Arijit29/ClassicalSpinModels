@@ -1,2 +1,2 @@
-# ising2D
-Metropolis based Monte-Carlo code for the 2D classical Ising model
+# Classical Spin Models
+Metropolis based Monte-Carlo code for a few classical spin models.
